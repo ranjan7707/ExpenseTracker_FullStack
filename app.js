@@ -47,6 +47,5 @@ sequelize.sync()
     .then(() => {
         app.listen(3000);
     })
-    .catch(err => {
-        console.log(err);
+    .catch(err => {const path = require('path');
     })

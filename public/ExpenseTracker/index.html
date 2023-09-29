@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
     <form onsubmit="addNewExpense(event)">
-        <label for="expenseamount">Choose expenseamount:</label>
+        <label for="expenseamount">Choose expense amount:</label>
         <input type="number" name="expenseamount" required> </input>
         <label for="description">Choose description:</label>
         <input type="text" name="description" required> </input>
@@ -31,6 +32,7 @@
     <ul id='listOfExpenses'>
 
     </ul>
+    <div id="paginationButtons"></div>
     <ul id="leaderboard"></ul>
     <script src='./index.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
